@@ -8,7 +8,7 @@ int main(){
     cout<<"Enter Length of array:: ";
     cin>>l;
     vector<ll> ar, reversed_ar;
-    cout<<"Enter array elements space seperated:: ";
+    cout<<"Enter array elements space separated:: ";
     for (ll i=0; i<l; i++){
         ll ip;
         cin>>ip;

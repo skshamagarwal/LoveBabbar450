@@ -9,14 +9,14 @@ int main(){
     cout<<"Enter Length of first and second array space separated:: ";
     cin>>l>>l2;
     vector<ll> ar, ar2;
-    cout<<"Enter array elements space seperated:: ";
+    cout<<"Enter array elements space separated:: ";
     for (ll i=0; i<l; i++){
         ll ip;
         cin>>ip;
         ar.push_back(ip); 
     }
 
-    cout<<"Enter second array elements space seperated:: ";
+    cout<<"Enter second array elements space separated:: ";
     for (ll i=0; i<l2; i++){
         ll ip;
         cin>>ip;

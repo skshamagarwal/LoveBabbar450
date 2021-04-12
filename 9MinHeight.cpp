@@ -1,13 +1,11 @@
-#include <vector>
 #include <bits/stdc++.h>
-
 using namespace std;
 typedef long long int ll;
 
 int main(){
     ll l, k;
-    cout<<"Enter Length of array:: ";
-    cin>>l;
+    cout<<"Enter Length of array and k space separated:: ";
+    cin>>l>>k;
     vector<ll> ar;
     cout<<"Enter array elements space separated:: ";
     for (ll i=0; i<l; i++){
@@ -15,12 +13,11 @@ int main(){
         cin>>ip;
         ar.push_back(ip); 
     }
-    cout<<"K:: ";
-    cin>>k;
 
     sort(ar.begin(), ar.end());
-    cout<<"Min kth element of array:: "<<ar[k-1]<<endl;
-    cout<<"Max kth element of array:: "<<ar[ar.size()-k];
+    for (ll i=0; i<l-1; i++){
+        if (ar[i]-k<=)
+    }
 
     return 0;
 }
