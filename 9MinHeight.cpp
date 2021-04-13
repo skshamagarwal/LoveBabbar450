@@ -15,9 +15,14 @@ int main(){
     }
 
     sort(ar.begin(), ar.end());
-    for (ll i=0; i<l-1; i++){
-        if (ar[i]-k<=)
+    ar[0]+=k;
+    for (ll i=1; i<l; i++){
+        if (ar[i]-k>=ar[0]) ar[i]-=k;
+        else ar[i]+=k;
     }
 
+    int maximum = *max_element(ar.begin(), ar.end()); 
+    int minimum = *min_element(ar.begin(), ar.end()); 
+    cout<<maximum-minimum<<endl;
     return 0;
 }
