@@ -32,6 +32,5 @@ int main(){
     cout<<"Array 2 -> ";
     for (int i=0; i<m; i++){
         cout<<ar2[i]<<" ";
-    }
-    
+    }   
 }
